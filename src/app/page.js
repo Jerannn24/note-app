@@ -25,11 +25,11 @@ const page = () => {
 
   return (
     <div className='container col-md-9 mb-3 mt-5 border'>
-      <div>
-        <h2>Note Taking App</h2>
+      <div className='col text-center'>
+        <h2 className='mt-3 text-success'>Note Taking App</h2>
       </div>
       <NoteList notes={notes} setNotes={setNotes} onDelete={deleteNote} />
-    </div>
+    </div >
   )
 }
 
